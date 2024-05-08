@@ -1,0 +1,333 @@
+CDTT2
+ ┣ .vscode
+ ┃  ┗ settings.json
+ ┣ admin
+ ┃  ┣ __pycache__
+ ┃  ┃  ┣ __init__.cpython-312.pyc
+ ┃  ┃  ┗ tests.cpython-312.pyc
+ ┃  ┣ migrations
+ ┃  ┃  ┣ __pycache__
+ ┃  ┃  ┃  ┗ __init__.cpython-312.pyc
+ ┃  ┃  ┗ __init__.py
+ ┃  ┣ templates
+ ┃  ┣ __init__.py
+ ┃  ┣ admin.py
+ ┃  ┣ apps.py
+ ┃  ┣ models.py
+ ┃  ┣ tests.py
+ ┃  ┗ views.py
+ ┣ cart
+ ┃  ┣ __pycache__
+ ┃  ┃  ┣ __init__.cpython-312.pyc
+ ┃  ┃  ┣ admin.cpython-312.pyc
+ ┃  ┃  ┣ apps.cpython-312.pyc
+ ┃  ┃  ┣ models.cpython-312.pyc
+ ┃  ┃  ┣ serializers.cpython-312.pyc
+ ┃  ┃  ┣ tests.cpython-312.pyc
+ ┃  ┃  ┗ views.cpython-312.pyc
+ ┃  ┣ migrations
+ ┃  ┃  ┣ __pycache__
+ ┃  ┃  ┃  ┣ __init__.cpython-312.pyc
+ ┃  ┃  ┃  ┗ 0001_initial.cpython-312.pyc
+ ┃  ┃  ┣ __init__.py
+ ┃  ┃  ┗ 0001_initial.py
+ ┃  ┣ __init__.py
+ ┃  ┣ admin.py
+ ┃  ┣ apps.py
+ ┃  ┣ models.py
+ ┃  ┣ serializers.py
+ ┃  ┣ tests.py
+ ┃  ┗ views.py
+ ┣ cdtt2
+ ┃  ┣ __pycache__
+ ┃  ┃  ┣ __init__.cpython-312.pyc
+ ┃  ┃  ┣ settings.cpython-312.pyc
+ ┃  ┃  ┣ urls.cpython-312.pyc
+ ┃  ┃  ┣ views.cpython-312.pyc
+ ┃  ┃  ┗ wsgi.cpython-312.pyc
+ ┃  ┣ templates
+ ┃  ┃  ┣ banner.html
+ ┃  ┃  ┣ cart.html
+ ┃  ┃  ┣ chitietsanpham.html
+ ┃  ┃  ┣ contain_product.html
+ ┃  ┃  ┣ customer.html
+ ┃  ┃  ┣ filter.html
+ ┃  ┃  ┣ footer.html
+ ┃  ┃  ┣ gioithieu.html
+ ┃  ┃  ┣ header.html
+ ┃  ┃  ┣ home.html
+ ┃  ┃  ┣ layout.html
+ ┃  ┃  ┣ lienhe.html
+ ┃  ┃  ┣ login.html
+ ┃  ┃  ┣ tim_kiem.html
+ ┃  ┃  ┣ top_nav.html
+ ┃  ┃  ┗ trungtambaohanh.html
+ ┃  ┣ __init__.py
+ ┃  ┣ asgi.py
+ ┃  ┣ settings.py
+ ┃  ┣ urls.py
+ ┃  ┣ views.py
+ ┃  ┗ wsgi.py
+ ┣ customer
+ ┃  ┣ __pycache__
+ ┃  ┃  ┣ __init__.cpython-312.pyc
+ ┃  ┃  ┣ admin.cpython-312.pyc
+ ┃  ┃  ┣ apps.cpython-312.pyc
+ ┃  ┃  ┣ backends.cpython-312.pyc
+ ┃  ┃  ┣ form.cpython-312.pyc
+ ┃  ┃  ┣ forms.cpython-312.pyc
+ ┃  ┃  ┣ models.cpython-312.pyc
+ ┃  ┃  ┣ serializers.cpython-312.pyc
+ ┃  ┃  ┣ tests.cpython-312.pyc
+ ┃  ┃  ┗ views.cpython-312.pyc
+ ┃  ┣ migrations
+ ┃  ┃  ┣ __pycache__
+ ┃  ┃  ┃  ┣ __init__.cpython-312.pyc
+ ┃  ┃  ┃  ┣ 0001_initial.cpython-312.pyc
+ ┃  ┃  ┃  ┣ 0002_alter_customer_name.cpython-312.pyc
+ ┃  ┃  ┃  ┣ 0003_remove_customer_address_customer_groups_and_more.cpython-312.pyc
+ ┃  ┃  ┃  ┣ 0004_alter_customer_managers_and_more.cpython-312.pyc
+ ┃  ┃  ┃  ┣ 0005_alter_customer_date_joined_alter_customer_first_name_and_more.cpython-312.pyc
+ ┃  ┃  ┃  ┗ 0006_alter_customer_username.cpython-312.pyc
+ ┃  ┃  ┣ __init__.py
+ ┃  ┃  ┣ 0001_initial.py
+ ┃  ┃  ┣ 0002_alter_customer_name.py
+ ┃  ┃  ┣ 0003_remove_customer_address_customer_groups_and_more.py
+ ┃  ┃  ┣ 0004_alter_customer_managers_and_more.py
+ ┃  ┃  ┣ 0005_alter_customer_date_joined_alter_customer_first_name_and_more.py
+ ┃  ┃  ┗ 0006_alter_customer_username.py
+ ┃  ┣ __init__.py
+ ┃  ┣ a.json
+ ┃  ┣ admin.py
+ ┃  ┣ apps.py
+ ┃  ┣ backends.py
+ ┃  ┣ forms.py
+ ┃  ┣ models.py
+ ┃  ┣ serializers.py
+ ┃  ┣ tests.py
+ ┃  ┗ views.py
+ ┣ product
+ ┃  ┣ __pycache__
+ ┃  ┃  ┣ __init__.cpython-312.pyc
+ ┃  ┃  ┣ admin.cpython-312.pyc
+ ┃  ┃  ┣ apps.cpython-312.pyc
+ ┃  ┃  ┣ models.cpython-312.pyc
+ ┃  ┃  ┣ serializers.cpython-312.pyc
+ ┃  ┃  ┣ tests.cpython-312.pyc
+ ┃  ┃  ┗ views.cpython-312.pyc
+ ┃  ┣ migrations
+ ┃  ┃  ┣ __pycache__
+ ┃  ┃  ┃  ┣ __init__.cpython-312.pyc
+ ┃  ┃  ┃  ┣ 0001_initial.cpython-312.pyc
+ ┃  ┃  ┃  ┗ 0002_brand_product_battery_product_brand_product_cpu_and_more.cpython-312.pyc
+ ┃  ┃  ┣ __init__.py
+ ┃  ┃  ┣ 0001_initial.py
+ ┃  ┃  ┗ 0002_brand_product_battery_product_brand_product_cpu_and_more.py
+ ┃  ┣ __init__.py
+ ┃  ┣ admin.py
+ ┃  ┣ apps.py
+ ┃  ┣ models.py
+ ┃  ┣ serializers.py
+ ┃  ┣ tests.py
+ ┃  ┗ views.py
+ ┣ screenshots
+ ┃  ┣ bảo hành.png
+ ┃  ┣ chi tiết sản phẩm.png
+ ┃  ┣ đăng ký.png
+ ┃  ┣ đăng nhập.png
+ ┃  ┣ giới thiệu.png
+ ┃  ┣ hiên thị sản phẩm.png
+ ┃  ┣ kiểm tra đơn hàng.png
+ ┃  ┣ liên hệ.png
+ ┃  ┣ lọc sản phẩm.png
+ ┃  ┣ quản lý sản phẩm.png
+ ┃  ┣ Screenshot 2024-04-15 110546.png
+ ┃  ┣ Screenshot_1.png
+ ┃  ┣ Screenshot_2.png
+ ┃  ┣ Screenshot_3.png
+ ┃  ┣ Screenshot_4.png
+ ┃  ┣ Screenshot_5.png
+ ┃  ┣ Screenshot_6.png
+ ┃  ┣ Screenshot_7.png
+ ┃  ┣ Screenshot_8.png
+ ┃  ┣ tìm kiếm.png
+ ┃  ┣ trang admin.png
+ ┃  ┣ trang chủ.png
+ ┃  ┣ trang giỏ hàng.png
+ ┃  ┣ trang người dùng.png
+ ┃  ┗ xem người dùng.png
+ ┣ statics
+ ┃  ┣ css
+ ┃  ┃  ┣ admin
+ ┃  ┃  ┃  ┣ layout.css
+ ┃  ┃  ┃  ┣ progress.css
+ ┃  ┃  ┃  ┗ style.css
+ ┃  ┃  ┣ banner.css
+ ┃  ┃  ┣ baohanh.css
+ ┃  ┃  ┣ chitietsanpham.css
+ ┃  ┃  ┣ footer.css
+ ┃  ┃  ┣ gioHang.css
+ ┃  ┃  ┣ gioithieu.css
+ ┃  ┃  ┣ header.css
+ ┃  ┃  ┣ home_products.css
+ ┃  ┃  ┣ lienhe.css
+ ┃  ┃  ┣ nguoidung.css
+ ┃  ┃  ┣ pagination_phantrang.css
+ ┃  ┃  ┣ style.css
+ ┃  ┃  ┣ taikhoan.css
+ ┃  ┃  ┣ tintuc.css
+ ┃  ┃  ┣ topnav.css
+ ┃  ┃  ┣ trangchu.css
+ ┃  ┃  ┗ tuyendung.css
+ ┃  ┣ data
+ ┃  ┃  ┗ products.js
+ ┃  ┣ img
+ ┃  ┃  ┣ banners
+ ┃  ┃  ┃  ┣ banner0.gif
+ ┃  ┃  ┃  ┣ banner1.png
+ ┃  ┃  ┃  ┣ banner2.png
+ ┃  ┃  ┃  ┣ banner3.png
+ ┃  ┃  ┃  ┣ banner4.png
+ ┃  ┃  ┃  ┣ banner5.png
+ ┃  ┃  ┃  ┣ banner6.png
+ ┃  ┃  ┃  ┣ banner7.png
+ ┃  ┃  ┃  ┣ banner8.png
+ ┃  ┃  ┃  ┣ banner9.png
+ ┃  ┃  ┃  ┣ blackFriday.gif
+ ┃  ┃  ┃  ┗ gsct.png
+ ┃  ┃  ┣ brands
+ ┃  ┃  ┃  ┣ Apple.jpg
+ ┃  ┃  ┃  ┣ Coolpad.png
+ ┃  ┃  ┃  ┣ HTC.jpg
+ ┃  ┃  ┃  ┣ Huawei.jpg
+ ┃  ┃  ┃  ┣ Itel.jpg
+ ┃  ┃  ┃  ┣ Mobell.jpg
+ ┃  ┃  ┃  ┣ Mobiistar.jpg
+ ┃  ┃  ┃  ┣ Motorola.jpg
+ ┃  ┃  ┃  ┣ Nokia.jpg
+ ┃  ┃  ┃  ┣ Oppo.jpg
+ ┃  ┃  ┃  ┣ Philips.jpg
+ ┃  ┃  ┃  ┣ Realme.png
+ ┃  ┃  ┃  ┣ Samsung.jpg
+ ┃  ┃  ┃  ┣ Vivo.jpg
+ ┃  ┃  ┃  ┗ Xiaomi.png
+ ┃  ┃  ┣ chitietsanpham
+ ┃  ┃  ┃  ┣ 1-1.jpg
+ ┃  ┃  ┃  ┣ box.png
+ ┃  ┃  ┃  ┣ clock-152067_960_720.png
+ ┃  ┃  ┃  ┣ icon-baohanh.png
+ ┃  ┃  ┃  ┣ icon-tick.png
+ ┃  ┃  ┃  ┣ oppo-f9-mau-do-1-org.jpg
+ ┃  ┃  ┃  ┣ oppo-f9-mau-do-2-org.jpg
+ ┃  ┃  ┃  ┣ oppo-f9-mau-do-3-org.jpg
+ ┃  ┃  ┃  ┗ oppo-f9-red-2-400x460.png
+ ┃  ┃  ┣ footer
+ ┃  ┃  ┃  ┣ footer1.png
+ ┃  ┃  ┃  ┗ footer2.png
+ ┃  ┃  ┣ products
+ ┃  ┃  ┃  ┣ Honor 90 Lite 5G 8GB-256GB.jpg
+ ┃  ┃  ┃  ┣ Honor X5 Plus 4GB-64GB.jpg
+ ┃  ┃  ┃  ┣ Honor X6A 4GB-128GB.jpg
+ ┃  ┃  ┃  ┣ Honor X7b 8GB-256GB.jpg
+ ┃  ┃  ┃  ┣ Honor X8A 8GB-128GB.jpg
+ ┃  ┃  ┃  ┣ Honor X9B 5G 12GB-256GB.jpg
+ ┃  ┃  ┃  ┣ iPhone 11 64GB.jpg
+ ┃  ┃  ┃  ┣ iPhone 12 64GB.jpg
+ ┃  ┃  ┃  ┣ iPhone 13 128GB.jpg
+ ┃  ┃  ┃  ┣ iPhone 14 Pro Max 128GB.jpg
+ ┃  ┃  ┃  ┣ iPhone 15 Pro 128GB.jpg
+ ┃  ┃  ┃  ┣ iPhone 15 Pro Max 256GB.jpg
+ ┃  ┃  ┃  ┣ Masstel Fami 12 4G.jpg
+ ┃  ┃  ┃  ┣ Masstel Fami 60 4G.jpg
+ ┃  ┃  ┃  ┣ Masstel Fami 60S 4G.jpg
+ ┃  ┃  ┃  ┣ Masstel Izi 15 4G.jpg
+ ┃  ┃  ┃  ┣ Masstel izi 30 4G.jpg
+ ┃  ┃  ┃  ┣ Masstel izi T2 4G.jpg
+ ┃  ┃  ┃  ┣ Nokia 105 DS Pro 4G.jpg
+ ┃  ┃  ┃  ┣ Nokia 110 DS 4G.jpg
+ ┃  ┃  ┃  ┣ OPPO A17k 3GB-64GB.jpg
+ ┃  ┃  ┃  ┣ OPPO A18 4GB-128GB.jpg
+ ┃  ┃  ┃  ┣ OPPO A57 4GB-128GB.jpg
+ ┃  ┃  ┃  ┣ OPPO A58 6GB-128GB.jpg
+ ┃  ┃  ┃  ┣ OPPO A77s 8GB-128GB.jpg
+ ┃  ┃  ┃  ┣ OPPO A78 8GB-256GB.jpg
+ ┃  ┃  ┃  ┣ OPPO Find N3 Flip 5G 12GB-256GB.jpg
+ ┃  ┃  ┃  ┣ OPPO Reno11 F 5G 8GB-256GB.jpg
+ ┃  ┃  ┃  ┣ OPPO Reno8 T 4G 256GB.jpg
+ ┃  ┃  ┃  ┣ realme C30s 3GB-64GB.jpg
+ ┃  ┃  ┃  ┣ Realme C51 6GB-256GB.jpg
+ ┃  ┃  ┃  ┣ realme C55 6GB-128GB.jpg
+ ┃  ┃  ┃  ┣ realme C60 4GB-64GB.jpg
+ ┃  ┃  ┃  ┣ Samsung Galaxy A04s.jpg
+ ┃  ┃  ┃  ┣ Samsung Galaxy A05 128GB.jpg
+ ┃  ┃  ┃  ┣ Samsung Galaxy A05s 128GB.jpg
+ ┃  ┃  ┃  ┣ Samsung Galaxy A14 4G.jpg
+ ┃  ┃  ┃  ┣ Samsung Galaxy A15 128GB.jpg
+ ┃  ┃  ┃  ┣ Samsung Galaxy A23 5G.jpg
+ ┃  ┃  ┃  ┣ Samsung Galaxy A25 5G 128GB.jpg
+ ┃  ┃  ┃  ┣ Samsung Galaxy A34 5G.jpg
+ ┃  ┃  ┃  ┣ Samsung Galaxy A35 5G 128GB.jpg
+ ┃  ┃  ┃  ┣ Samsung Galaxy A54 5G 256GB.jpg
+ ┃  ┃  ┃  ┣ Samsung Galaxy M34 5G 128GB.jpg
+ ┃  ┃  ┃  ┣ Samsung Galaxy S22 5G 128GB.jpg
+ ┃  ┃  ┃  ┣ Samsung Galaxy S23 Plus 5G 256GB.jpg
+ ┃  ┃  ┃  ┣ Samsung Galaxy S23 Ultra 5G 256GB.jpg
+ ┃  ┃  ┃  ┣ Samsung Galaxy S24 5G 256GB.jpg
+ ┃  ┃  ┃  ┣ Samsung Galaxy S24 Ultra 5G 256GB.jpg
+ ┃  ┃  ┃  ┣ Samsung Galaxy Z Flip4 5G 128GB.jpg
+ ┃  ┃  ┃  ┣ Samsung Galaxy Z Flip5 5G 256GB.jpg
+ ┃  ┃  ┃  ┣ Samsung Galaxy Z Fold5 5G 256GB.jpg
+ ┃  ┃  ┃  ┣ Vivo V25e 8GB-128GB.jpg
+ ┃  ┃  ┃  ┣ Vivo Y16 4GB-128GB.jpg
+ ┃  ┃  ┃  ┣ Vivo Y22s 8GB-128GB.jpg
+ ┃  ┃  ┃  ┣ Vivo Y35 8GB-128GB.jpg
+ ┃  ┃  ┃  ┣ Xiaomi 13T 12GB-256GB.jpg
+ ┃  ┃  ┃  ┣ Xiaomi Poco M6 Pro 8GB-256GB.jpg
+ ┃  ┃  ┃  ┣ Xiaomi Redmi 12C 4GB-64GB.jpg
+ ┃  ┃  ┃  ┣ Xiaomi Redmi 13C 6GB-128GB.jpg
+ ┃  ┃  ┃  ┣ Xiaomi Redmi A2 2GB-32GB.jpg
+ ┃  ┃  ┃  ┣ Xiaomi Redmi Note 11 Pro 8GB - 128GB.jpg
+ ┃  ┃  ┃  ┣ Xiaomi Redmi Note 13 6GB-128GB.jpg
+ ┃  ┃  ┃  ┗ Xiaomi Redmi Note 13 Pro+ 5G 8GB-256GB.jpg
+ ┃  ┃  ┣ tintuc
+ ┃  ┃  ┃  ┣ tintuc1.png
+ ┃  ┃  ┃  ┣ tintuc2.png
+ ┃  ┃  ┃  ┣ tintuc3.png
+ ┃  ┃  ┃  ┣ tintuc4.png
+ ┃  ┃  ┃  ┗ tintuc5.png
+ ┃  ┃  ┣ favicon.ico
+ ┃  ┃  ┗ logo.jpg
+ ┃  ┣ js
+ ┃  ┃  ┣ Jquery
+ ┃  ┃  ┃  ┗ Jquery.min.js
+ ┃  ┃  ┣ owlcarousel
+ ┃  ┃  ┃  ┣ owl.carousel.min.css
+ ┃  ┃  ┃  ┣ owl.carousel.min.js
+ ┃  ┃  ┃  ┗ owl.theme.default.min.css
+ ┃  ┃  ┣ account.js
+ ┃  ┃  ┣ cart.js
+ ┃  ┃  ┣ filter.js
+ ┃  ┃  ┣ getProduct.js
+ ┃  ┃  ┣ layout.js
+ ┃  ┃  ┗ search.js
+ ┃  ┗ screenshots
+ ┃     ┣ Screenshot_1.png
+ ┃     ┣ Screenshot_10.png
+ ┃     ┣ Screenshot_11.png
+ ┃     ┣ Screenshot_12.png
+ ┃     ┣ Screenshot_2.png
+ ┃     ┣ Screenshot_3.png
+ ┃     ┣ Screenshot_4.png
+ ┃     ┣ Screenshot_5.png
+ ┃     ┣ Screenshot_6.png
+ ┃     ┣ Screenshot_7.png
+ ┃     ┣ Screenshot_8.png
+ ┃     ┗ Screenshot_9.png
+ ┣ cac_cau_lenh_SQL.sql
+ ┣ HƯớng dân cấu hình database.txt
+ ┣ lam_viec_voi_database.py
+ ┣ manage.py
+ ┣ output.txt
+ ┣ phone_brands.csv
+ ┣ Products.csv
+ ┗ README.md
