@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "customers_id","username","email","password","is_active","is_staff","is_superuser","last_login","tel","date_joined","first_name","last_name","address"
 1,"2151040051@gmail.com","2151040051@gmail.com","bcrypt_sha256$$2b$12$HT9VjO9oWRSCuavhZ8zkXuKo30tOkw.kbmhFim2/1xEbrjq5TDdI.",True,True,True,"2024-05-07 15:46:09.747758+07","0377289656","2024-04-13 18:53:17.113328+07","Nguyễn Ngọc","Tâm","Tỉnh Bình Định, Huyện Hoài Ân, Xã Ân Tín, 123456"
 2,"nguyenngoctam0332003@gmail.com","nguyenngoctam0332003@gmail.com","bcrypt_sha256$$2b$12$4ajd7cld43pbNQFjXSaOqu0./siQVEHLxWKlF9efb5rH3226Hc5Du",True,False,False,"2024-04-13 19:04:52+07","","2024-04-13 19:04:52+07","Nguyễn Ngọc","Tâm",NULL
@@ -5,3 +6,12 @@
 4,"Nguyễn Văn A","2151040051@ut.vn","bcrypt_sha256$$2b$12$a01/KV9v9LcT6vSz.uUYguZ.NBseMyF4A3hWcdRSAT58PK2XdMwnW",True,False,False,"2024-05-07 15:44:39.107326+07","0987654321","2024-05-07 15:44:10.501438+07","Nguyễn Văn","A","No address provided"
 5,"2151040051@ut.edu.vn","2151040051@ut.edu.vn","bcrypt_sha256$$2b$12$HT9VjO9oWRSCuavhZ8zkXuKo30tOkw.kbmhFim2/1xEbrjq5TDdI.",True,False,False,"2024-05-07 14:58:24.095344+07","0987654321","2024-04-14 19:00:36.115221+07","nguyễn","tâm",""
 6,"1234@gmail.com","1234@gmail.com","bcrypt_sha256$$2b$12$l63rGIK6ZsT0uvxoj8T9t.gyF7cwV2QUiaDe6DPUOPf5R/VgtT6WO",True,False,False,"2024-04-14 22:23:00.471165+07","0987234615","2024-04-14 22:23:00.439913+07","Nguyễn","Ngọc",""
+=======
+"customers_id","username","email","password","is_active","is_staff","is_superuser","last_login","tel","date_joined","first_name","last_name","address"
+1,"2151040051@gmail.com","2151040051@gmail.com","bcrypt_sha256$$2b$12$HT9VjO9oWRSCuavhZ8zkXuKo30tOkw.kbmhFim2/1xEbrjq5TDdI.",True,True,True,"2024-05-07 15:46:09.747758+07","0377289656","2024-04-13 18:53:17.113328+07","Nguyễn Ngọc","Tâm","Tỉnh Bình Định, Huyện Hoài Ân, Xã Ân Tín, 123456"
+2,"nguyenngoctam0332003@gmail.com","nguyenngoctam0332003@gmail.com","bcrypt_sha256$$2b$12$4ajd7cld43pbNQFjXSaOqu0./siQVEHLxWKlF9efb5rH3226Hc5Du",True,False,False,"2024-04-13 19:04:52+07","","2024-04-13 19:04:52+07","Nguyễn Ngọc","Tâm",NULL
+3,"123@gmail.com","123@gmail.com","bcrypt_sha256$$2b$12$CFmobtCL//J9ztFos27BnuB25B5FKBjzk1RfXnTk1pfxdZXU/a5kO",True,False,False,"2024-04-14 11:54:28.868668+07","0987654321","2024-04-14 11:53:17.141052+07","nguyễn Ngọc","Tâm",""
+4,"Nguyễn Văn A","2151040051@ut.vn","bcrypt_sha256$$2b$12$a01/KV9v9LcT6vSz.uUYguZ.NBseMyF4A3hWcdRSAT58PK2XdMwnW",True,False,False,"2024-05-07 15:44:39.107326+07","0987654321","2024-05-07 15:44:10.501438+07","Nguyễn Văn","A","No address provided"
+5,"2151040051@ut.edu.vn","2151040051@ut.edu.vn","bcrypt_sha256$$2b$12$HT9VjO9oWRSCuavhZ8zkXuKo30tOkw.kbmhFim2/1xEbrjq5TDdI.",True,False,False,"2024-05-07 14:58:24.095344+07","0987654321","2024-04-14 19:00:36.115221+07","nguyễn","tâm",""
+6,"1234@gmail.com","1234@gmail.com","bcrypt_sha256$$2b$12$l63rGIK6ZsT0uvxoj8T9t.gyF7cwV2QUiaDe6DPUOPf5R/VgtT6WO",True,False,False,"2024-04-14 22:23:00.471165+07","0987234615","2024-04-14 22:23:00.439913+07","Nguyễn","Ngọc",""
+>>>>>>> bb4cfed6e136101eae983538874decd3791eb7f4
