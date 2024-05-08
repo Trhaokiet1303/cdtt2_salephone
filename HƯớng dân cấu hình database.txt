@@ -1,0 +1,23 @@
+- tạo một database mới,
+cài đặt database mới tạo trong biến database trong setting.py
+ví dụ:
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'ten_database_vua_tao',
+        'USER': 'postgres',
+        'PASSWORD': '0303',
+        'HOST': 'localhost',  # or the IP address of your PostgreSQL server
+        'PORT': '5432',  # or the port your PostgreSQL server is listening on
+    }
+}
+Chạy 2 lệnh sau trong terminal
+python manage.py makemigrations
+python manage.py migrate
+
+-- vào trong posgre, mở query tool để import 3 file csv sau trong database, 2 file này có trong thư mục chứa dự án
+-- giờ đã có database, thực hiện chạy project để test
+
+tài khoản admin:
+2151040051@gmail.com
+password: 123qweQWE
